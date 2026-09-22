@@ -24,8 +24,8 @@
           buildInputs = with pkgs; [
             openjdk21
             maven
-            docker
-            docker-compose
+            podman
+            podman-compose
             minikube
             kubectl
             kubernetes-helm
